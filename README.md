@@ -1,1 +1,1 @@
-Show inspiring/memorable/useful quote on phone lock screen
+Show inspiring/memorable/useful quotes on phone lock screen
