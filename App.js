@@ -7,7 +7,7 @@ import HistoryComponent from './components/History';
 
 export default class App extends React.Component {
   state = {
-    history: ['https://pastebin.com/raw/r8ayVY31'],
+    history: ['https://pastebin.com/raw/W7Mu4k6F'],
   };
 
   addUrlToHistory = url => {
