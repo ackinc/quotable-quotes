@@ -5,7 +5,9 @@ export default class App extends React.Component {
   render() {
     return (
       <View style={styles.container}>
-        <Text>Open up App.js to start working on your app!</Text>
+        <View style={styles.header}>
+          <Text style={styles.heading}>QUOTABLE QUOTES</Text>
+        </View>
       </View>
     );
   }
@@ -13,9 +15,17 @@ export default class App extends React.Component {
 
 const styles = StyleSheet.create({
   container: {
+    backgroundColor: '#FFF',
     flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
   },
+  header: {
+    backgroundColor: '#9EB2FF',
+    display: 'flex',
+    justifyContent: 'center',
+    alignItems: 'center',
+    height: 50,
+  },
+  heading: {
+    fontSize: 20,
+  }
 });
